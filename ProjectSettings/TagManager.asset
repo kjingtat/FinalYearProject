@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Enemy
   - Floor
+  - Food
+  - Destruct
+  - Upgrade
   layers:
   - Default
   - TransparentFX

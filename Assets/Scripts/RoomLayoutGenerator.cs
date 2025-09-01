@@ -1,9 +1,11 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class RoomLayoutGenerator : MonoBehaviour
 {
     public PlayerUI playerUI;
+    public DeathUI deathUI;
 
     public GameObject playerPrefab;
     private GameObject playerInstance;
@@ -14,8 +16,8 @@ public class RoomLayoutGenerator : MonoBehaviour
     public GameObject roomPrefab;
 
     [Header("Room Grid Spacing")]
-    public float roomSpacingX = 18f; // Adjust based on 17 tile width
-    public float roomSpacingY = 11f; // Adjust based on 10 tile height
+    public float roomSpacingX = 18f; 
+    public float roomSpacingY = 11f; 
 
     [Header("Position Offset")]
     public Vector2 startRoomWorldPosition = new Vector2(0.3f, -0.1f);
@@ -26,9 +28,14 @@ public class RoomLayoutGenerator : MonoBehaviour
     void Start()
     {
         GenerateRooms();
-        SpawnPlayer();
+        StartCoroutine(SpawnPlayerNextFrame());
     }
 
+    private IEnumerator SpawnPlayerNextFrame()
+    {
+        yield return null;
+        SpawnPlayer();
+    }
     void GenerateRooms()
     {
         Vector2Int currentPos = Vector2Int.zero;
@@ -78,14 +85,15 @@ public class RoomLayoutGenerator : MonoBehaviour
             GameObject room = Instantiate(roomPrefab, worldPos, Quaternion.identity, this.transform);
 
             bool[] doorStatus = new bool[4];
-            doorStatus[0] = placedRooms.Contains(pos + Vector2Int.up);    // Spawn room Up
-            doorStatus[1] = placedRooms.Contains(pos + Vector2Int.down);  // Spawn room Down
-            doorStatus[2] = placedRooms.Contains(pos + Vector2Int.right); // Spawn room Right
-            doorStatus[3] = placedRooms.Contains(pos + Vector2Int.left);  // Spawn room Left
+            doorStatus[0] = placedRooms.Contains(pos + Vector2Int.up); 
+            doorStatus[1] = placedRooms.Contains(pos + Vector2Int.down);  
+            doorStatus[2] = placedRooms.Contains(pos + Vector2Int.right);
+            doorStatus[3] = placedRooms.Contains(pos + Vector2Int.left);  
 
             RoomBehavior rb = room.GetComponent<RoomBehavior>();
             if (rb != null)
             {
+                rb.gridPosition = pos;     
                 rb.UpdateRoom(doorStatus);
 
                 if (pos == Vector2Int.zero)
@@ -100,32 +108,40 @@ public class RoomLayoutGenerator : MonoBehaviour
     void SpawnPlayer()
     {
         if (firstRoomInstance == null)
-        {
-            Debug.LogError("firstRoomInstance is null — room was not instantiated");
             return;
-        }
 
         var roomBehavior = firstRoomInstance.GetComponent<RoomBehavior>();
-        if (roomBehavior == null)
-        {
-            Debug.LogError("RoomBehavior component missing on firstRoomInstance");
+        if (roomBehavior == null || roomBehavior.spawnPointCenter == null)
             return;
-        }
-
-        if (roomBehavior.spawnPointCenter == null)
-        {
-            Debug.LogError("spawnPointCenter is not assigned on RoomBehavior");
-            return;
-        }
 
         Vector2 spawnPosition = roomBehavior.GetSpawnPosition("Center");
-
         playerInstance = Instantiate(playerPrefab, spawnPosition, Quaternion.identity);
+
+        var playerStats = playerInstance.GetComponent<PlayerStats>();
+        var playerHealth = playerInstance.GetComponent<Health>();
+
+        var statsManager = FindAnyObjectByType<StatsUpgradeManager>();
+        if (statsManager != null)
+            statsManager.playerStats = playerStats;
 
         RoomManager.Instance.player = playerInstance;
         RoomManager.Instance.InitializeRoomMap(GetComponentsInChildren<RoomBehavior>());
 
-        playerUI.playerHealth = playerInstance.GetComponent<Health>();
+        if (playerUI != null)
+            playerUI.Setup(playerHealth, playerStats);
 
+        if (deathUI != null)
+        {
+            deathUI.playerHealth = playerHealth;
+            deathUI.HookDeathEvent();
+        }
+
+        RoomBehavior[] rooms = GetComponentsInChildren<RoomBehavior>();
+
+        MapManager.Instance.InitializeMap(rooms);
+        MapManager.Instance.VisitRoom(Vector2Int.zero, cleared: false); 
+
+        GameManager.Instance.RegisterRooms(rooms);
     }
+
 }

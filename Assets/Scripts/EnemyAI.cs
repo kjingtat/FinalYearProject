@@ -9,7 +9,7 @@ public class EnemyAI : MonoBehaviour
 
     private Transform player;
     private Rigidbody2D rb;
-    private Vector2 movement;
+    private bool hasDetectedPlayer = false;
 
     void Start()
     {
@@ -19,23 +19,22 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
-        if (Vector2.Distance(transform.position, player.position) < detectionRange)
+        if (!hasDetectedPlayer && Vector2.Distance(transform.position, player.position) < detectionRange)
         {
-            Vector2 direction = (player.position - transform.position).normalized;
-            movement = direction;
-        }
-        else
-        {
-            movement = Vector2.zero;
+            hasDetectedPlayer = true;
         }
     }
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        if (hasDetectedPlayer)
+        {
+            Vector2 newPosition = Vector2.MoveTowards(rb.position, player.position, moveSpeed * Time.fixedDeltaTime);
+            rb.MovePosition(newPosition);
+        }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Player"))
         {
@@ -43,7 +42,13 @@ public class EnemyAI : MonoBehaviour
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(contactDamage);
+                hasDetectedPlayer = true;
             }
         }
+    }
+
+    public void OnHitByPlayer()
+    {
+        hasDetectedPlayer = true;
     }
 }

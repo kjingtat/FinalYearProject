@@ -4,30 +4,42 @@ public class PlayerRangedAttack : MonoBehaviour
 {
     public GameObject arrowPrefab;
     public GameObject crosshairPrefab;
+    public Transform firePoint; 
     private GameObject crosshair;
 
     public float arrowSpeed = 10f;
-    public float spawnOffsetDistance = 0.5f;
+
+    private float cooldownTimer = 0f;
+
+    private PlayerStats playerStats;
 
     void Start()
     {
-        // Spawn the crosshair
+        playerStats = GetComponent<PlayerStats>();
+
         crosshair = Instantiate(crosshairPrefab);
         crosshair.name = "Crosshair";
     }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && crosshair != null)
+        if (Time.timeScale == 0f)
+            return;
+
+        if (cooldownTimer > 0f)
+            cooldownTimer -= Time.deltaTime;
+
+        if (Input.GetMouseButtonDown(0) && crosshair != null && cooldownTimer <= 0f)
         {
             ShootArrow();
+            cooldownTimer = 1f / playerStats.fireRate;
         }
     }
 
     void ShootArrow()
     {
-        Vector2 direction = ((Vector2)crosshair.transform.position - (Vector2)transform.position).normalized;
-        Vector2 spawnPos = (Vector2)transform.position + direction * spawnOffsetDistance;
+        Vector2 direction = ((Vector2)crosshair.transform.position - (Vector2)firePoint.position).normalized;
+        Vector2 spawnPos = firePoint.position;
 
         GameObject arrow = Instantiate(arrowPrefab, spawnPos, Quaternion.identity);
         Rigidbody2D rb = arrow.GetComponent<Rigidbody2D>();
@@ -36,6 +48,8 @@ public class PlayerRangedAttack : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         arrow.transform.rotation = Quaternion.Euler(0, 0, angle);
 
-        Debug.Log($"Arrow shot toward {direction}, from {spawnPos}");
+        ArrowProjectile arrowScript = arrow.GetComponent<ArrowProjectile>();
+        if (arrowScript != null)
+            arrowScript.SetDamage(Mathf.RoundToInt(playerStats.attackDamage));
     }
 }

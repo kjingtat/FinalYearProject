@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class ArrowProjectile : MonoBehaviour
 {
-    public int damage = 1;
+    private int damage;
     public float lifetime = 3f;
 
     void Start()
@@ -10,21 +10,31 @@ public class ArrowProjectile : MonoBehaviour
         Destroy(gameObject, lifetime);
     }
 
+    public void SetDamage(int value)
+    {
+        damage = value;
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Enemy"))
         {
             Health enemy = other.GetComponent<Health>();
-
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);
+
+                EnemyAI enemyAI = other.GetComponent<EnemyAI>();
+                if (enemyAI != null)
+                {
+                    enemyAI.OnHitByPlayer();
+                }
             }
-            Destroy(gameObject); // Destroy arrow on hit
+            Destroy(gameObject);
         }
-        else if (!other.CompareTag("Player") && !other.CompareTag("Floor"))
+        else if (other.CompareTag("Destruct"))
         {
-            Destroy(gameObject); // Hit wall or other object
+            Destroy(gameObject);
         }
     }
 
