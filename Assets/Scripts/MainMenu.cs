@@ -3,15 +3,33 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    [Header("UI References")]
+    public GameObject InstructionUI; 
+
     public void StartGame()
     {
         SceneManager.LoadScene("MainScene");
-        Time.timeScale = 1f; 
+        Time.timeScale = 1f;
     }
 
     public void QuitGame()
     {
-        Debug.Log("Quitting game...");
         Application.Quit();
+    }
+
+    public void ShowInstructions()
+    {
+        if (InstructionUI != null)
+        {
+            InstructionUI.SetActive(true);
+        }
+    }
+
+    public void HideInstructions()
+    {
+        if (InstructionUI != null)
+        {
+            InstructionUI.SetActive(false);
+        }
     }
 }
