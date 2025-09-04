@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System.Collections.Generic;
 
 public class StatsUpgradeManager : MonoBehaviour
 {
@@ -20,11 +21,21 @@ public class StatsUpgradeManager : MonoBehaviour
         upgradePanel.SetActive(true);
         Time.timeScale = 0f;
 
+        List<StatsUpgradeOptions> shuffledUpgrades = new List<StatsUpgradeOptions>(allUpgrades);
+
+        for (int i = 0; i < shuffledUpgrades.Count; i++)
+        {
+            StatsUpgradeOptions temp = shuffledUpgrades[i];
+            int randomIndex = Random.Range(i, shuffledUpgrades.Count);
+            shuffledUpgrades[i] = shuffledUpgrades[randomIndex];
+            shuffledUpgrades[randomIndex] = temp;
+        }
+
         for (int i = 0; i < upgradeButtons.Length; i++)
         {
-            StatsUpgradeOptions option = allUpgrades[Random.Range(0, allUpgrades.Length)];
+            if (i >= shuffledUpgrades.Count) break; 
 
-            int capturedIndex = i; 
+            StatsUpgradeOptions option = shuffledUpgrades[i];
 
             TextMeshProUGUI buttonText = upgradeButtons[i].GetComponentInChildren<TextMeshProUGUI>();
             buttonText.text = option.name + "\n" + option.description;
@@ -53,6 +64,9 @@ public class StatsUpgradeManager : MonoBehaviour
                 break;
             case StatsUpgradeOptions.StatType.InvulnerabilityTime:
                 playerStats.IncreaseInvulnerabilityTime(option.amount);
+                break;
+            case StatsUpgradeOptions.StatType.Lifesteal:
+                playerStats.IncreaseFlatLifesteal(option.amount);
                 break;
         }
 

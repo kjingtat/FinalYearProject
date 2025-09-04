@@ -9,6 +9,9 @@ public class PlayerStats : MonoBehaviour
     public float attackDamage = 1f;
     public float fireRate = 10f;
 
+    [Header("Special Stats")]
+    public float flatLifesteal = 0f; 
+
     private Health health;
 
     void Awake()
@@ -52,5 +55,10 @@ public class PlayerStats : MonoBehaviour
         {
             health.invulnerabilityDuration += amount;
         }
+    }
+
+    public void IncreaseFlatLifesteal(float amount)
+    {
+        flatLifesteal += amount;
     }
 }

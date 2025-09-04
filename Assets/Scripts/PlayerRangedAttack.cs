@@ -29,7 +29,7 @@ public class PlayerRangedAttack : MonoBehaviour
         if (cooldownTimer > 0f)
             cooldownTimer -= Time.deltaTime;
 
-        if (Input.GetMouseButtonDown(0) && crosshair != null && cooldownTimer <= 0f)
+        if (Input.GetMouseButton(0) && crosshair != null && cooldownTimer <= 0f)
         {
             ShootArrow();
             cooldownTimer = 1f / playerStats.fireRate;
@@ -50,6 +50,10 @@ public class PlayerRangedAttack : MonoBehaviour
 
         ArrowProjectile arrowScript = arrow.GetComponent<ArrowProjectile>();
         if (arrowScript != null)
+        {
             arrowScript.SetDamage(Mathf.RoundToInt(playerStats.attackDamage));
+            arrowScript.SetPlayerStats(playerStats); 
+        }
     }
+
 }

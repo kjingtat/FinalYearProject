@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\ArrowProjectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ArrowProjectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerRangedAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerRangedAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\StatsUpgradesManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StatsUpgradesManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\StatsUpgradeOptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StatsUpgradeOptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerStats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerStats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\MainMenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,24 +59,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RoomManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerStats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerStats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RandomEnemyAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\RandomEnemyAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\StatsUpgradeOptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StatsUpgradeOptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\StatsUpgradesManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StatsUpgradesManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\Health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,14 +89,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\StatusEffectManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\StatusEffectManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerRangedAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\PlayerRangedAttack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\ArrowProjectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ArrowProjectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\EnemyAI.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,11 +142,172 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerStats.cs",
+              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerStats.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerStats.cs",
+              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerStats.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerStats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-03T08:06:59.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RoomBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RoomBehavior.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RoomBehavior.cs",
+              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RoomBehavior.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RoomBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T06:24:11.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StatsUpgradesManager.cs",
+              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\StatsUpgradesManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StatsUpgradesManager.cs",
+              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\StatsUpgradesManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StatsUpgradesManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T08:47:48.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StatsUpgradeOptions.cs",
+              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\StatsUpgradeOptions.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\StatsUpgradeOptions.cs",
+              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\StatsUpgradeOptions.cs",
+              "RelativeToolTip": "Assets\\Scripts\\StatsUpgradeOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T08:47:35.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RandomEnemyAI.cs",
+              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RandomEnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RandomEnemyAI.cs",
+              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RandomEnemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RandomEnemyAI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T07:49:47.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T10:43:57.507Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoomLayoutGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RoomLayoutGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RoomLayoutGenerator.cs",
+              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RoomLayoutGenerator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RoomLayoutGenerator.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAAIUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-06T07:40:10.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T09:34:25.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PauseGame.cs",
+              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PauseGame.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PauseGame.cs",
+              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PauseGame.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PauseGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T10:27:28.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerRangedAttack.cs",
+              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerRangedAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerRangedAttack.cs",
+              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerRangedAttack.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerRangedAttack.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T07:24:42.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ArrowProjectile.cs",
+              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\ArrowProjectile.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ArrowProjectile.cs",
+              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\ArrowProjectile.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ArrowProjectile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T07:29:51.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Health.cs",
+              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Health.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T07:34:51.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerUI.cs",
+              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerUI.cs",
+              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T13:51:23.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainMenu.cs",
@@ -159,141 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PlayerStats.cs",
-              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerStats.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerStats.cs",
-              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerStats.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerStats.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T08:06:59.538Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PlayerUI.cs",
-              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerUI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerUI.cs",
-              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerUI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T13:51:23.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Health.cs",
-              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\Health.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Health.cs",
-              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\Health.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Health.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-11T07:34:51.939Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RoomBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RoomBehavior.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RoomBehavior.cs",
-              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RoomBehavior.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RoomBehavior.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T06:24:11.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "StatsUpgradesManager.cs",
-              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\StatsUpgradesManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StatsUpgradesManager.cs",
-              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\StatsUpgradesManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StatsUpgradesManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T08:47:48.333Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "StatsUpgradeOptions.cs",
-              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\StatsUpgradeOptions.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\StatsUpgradeOptions.cs",
-              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\StatsUpgradeOptions.cs",
-              "RelativeToolTip": "Assets\\Scripts\\StatsUpgradeOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T08:47:35.745Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RandomEnemyAI.cs",
-              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RandomEnemyAI.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RandomEnemyAI.cs",
-              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RandomEnemyAI.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RandomEnemyAI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T07:49:47.513Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
-              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T10:43:57.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RoomLayoutGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RoomLayoutGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\RoomLayoutGenerator.cs",
-              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RoomLayoutGenerator.cs",
-              "RelativeToolTip": "Assets\\Scripts\\RoomLayoutGenerator.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAAAIUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-06T07:40:10.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UIManager.cs",
-              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\UIManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
-              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\UIManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T09:34:25.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PauseGame.cs",
-              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PauseGame.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PauseGame.cs",
-              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PauseGame.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PauseGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-06T10:27:28.727Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "MapManager.cs",
               "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\MapManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MapManager.cs",
@@ -301,12 +328,11 @@
               "RelativeToolTip": "Assets\\Scripts\\MapManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T08:04:42.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-01T08:04:42.027Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "DeathUI.cs",
               "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\DeathUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DeathUI.cs",
@@ -318,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "RoomManager.cs",
               "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RoomManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RoomManager.cs",
@@ -330,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "ApplyStatusEffect.cs",
               "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\ApplyStatusEffect.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ApplyStatusEffect.cs",
@@ -339,30 +365,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-28T06:28:37.889Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "PlayerRangedAttack.cs",
-              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerRangedAttack.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerRangedAttack.cs",
-              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\PlayerRangedAttack.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerRangedAttack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T07:24:42.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ArrowProjectile.cs",
-              "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\ArrowProjectile.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\ArrowProjectile.cs",
-              "ToolTip": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\ArrowProjectile.cs",
-              "RelativeToolTip": "Assets\\Scripts\\ArrowProjectile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T07:29:51.401Z"
             },
             {
               "$type": "Document",
@@ -378,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "StatusEffectManager.cs",
               "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\StatusEffectManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\StatusEffectManager.cs",
@@ -390,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "ChargingEnemyAI.cs",
               "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\ChargingEnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ChargingEnemyAI.cs",
@@ -402,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "RangedEnemyAI.cs",
               "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\RangedEnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\RangedEnemyAI.cs",
@@ -414,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "EnemyProjectile.cs",
               "DocumentMoniker": "C:\\Users\\kjing\\OneDrive - SIM - Singapore Institute of Management\\Documents\\Year 3 sem 2\\Final Project\\FinalYearProject\\Assets\\Scripts\\EnemyProjectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyProjectile.cs",

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3034904588201083857}
   - component: {fileID: 4069029334930837854}
   - component: {fileID: 4781244840236405768}
+  - component: {fileID: 689578789891754495}
   m_Layer: 0
   m_Name: EyeEnemy
   m_TagString: Enemy
@@ -195,6 +196,20 @@ MonoBehaviour:
   - {fileID: 7647112445514891278, guid: 2c0be5f9e9ac56b439fff1e86bcf91e0, type: 3}
   - {fileID: 8154994315970576938, guid: 15cb08c1579ce6d4d884bc23a612765d, type: 3}
   - {fileID: 2858333615611917283, guid: 3ec5899d20f90684ca9c22d073defdcd, type: 3}
+--- !u!114 &689578789891754495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6966803782074425415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086fdbf689f804d4b82f7d1090e92c84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRandom: 0
+  healthBarCanvas: {fileID: 1616159566253932451}
 --- !u!1001 &2553499914043189796
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -292,6 +307,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a60d8bc5b62f36a4e91c5b1755cdb3ab, type: 3}
+--- !u!1 &1616159566253932451 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3819644246758184327, guid: a60d8bc5b62f36a4e91c5b1755cdb3ab, type: 3}
+  m_PrefabInstance: {fileID: 2553499914043189796}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &4733542047867573711 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7124467893303869419, guid: a60d8bc5b62f36a4e91c5b1755cdb3ab, type: 3}

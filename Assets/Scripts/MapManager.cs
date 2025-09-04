@@ -89,11 +89,13 @@ public class MapManager : MonoBehaviour
         roomIcons[pos].SetActive(true);
 
         Image icon = roomIcons[pos].GetComponent<Image>();
-        if (!rooms[pos].isStartingRoom)
+        if (!rooms[pos].isStartingRoom && icon.color == Color.gray)
+        {
             icon.color = cleared ? Color.white : Color.yellow;
+        }
 
-        if (clearedXIcons.ContainsKey(pos))
-            clearedXIcons[pos].SetActive(cleared);
+        if (cleared && clearedXIcons.ContainsKey(pos))
+            clearedXIcons[pos].SetActive(true);
 
         PlacePlayerMarker(pos);
         CenterOnPlayer(pos);

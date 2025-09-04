@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 7560326763119228807}
   - component: {fileID: 4028962534116127893}
   - component: {fileID: 3042332820060180648}
+  - component: {fileID: 7769897986054995781}
   m_Layer: 0
   m_Name: PlantEnemy
   m_TagString: Enemy
@@ -132,11 +133,11 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9144158300524095654}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 10
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 0
@@ -166,7 +167,6 @@ MonoBehaviour:
   projectilePrefab: {fileID: 9143473504215378055, guid: 450a44fa51dbd4146859de1e5d0ae839, type: 3}
   firePoint: {fileID: 8028647167659757739}
   moveSpeed: 0
-  minDistanceFromPlayer: 5
   randomMoveInterval: 1.5
   randomMoveRadius: 2
   attackCooldown: 2
@@ -230,6 +230,20 @@ MonoBehaviour:
   - {fileID: 7647112445514891278, guid: 2c0be5f9e9ac56b439fff1e86bcf91e0, type: 3}
   - {fileID: 8154994315970576938, guid: 15cb08c1579ce6d4d884bc23a612765d, type: 3}
   - {fileID: 2858333615611917283, guid: 3ec5899d20f90684ca9c22d073defdcd, type: 3}
+--- !u!114 &7769897986054995781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9144158300524095654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086fdbf689f804d4b82f7d1090e92c84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRandom: 0
+  healthBarCanvas: {fileID: 8021152049310189054}
 --- !u!1001 &6508477162656698489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -330,5 +344,10 @@ PrefabInstance:
 --- !u!224 &4075177892498665362 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7124467893303869419, guid: a60d8bc5b62f36a4e91c5b1755cdb3ab, type: 3}
+  m_PrefabInstance: {fileID: 6508477162656698489}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8021152049310189054 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3819644246758184327, guid: a60d8bc5b62f36a4e91c5b1755cdb3ab, type: 3}
   m_PrefabInstance: {fileID: 6508477162656698489}
   m_PrefabAsset: {fileID: 0}

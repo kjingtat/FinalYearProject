@@ -12,7 +12,8 @@ public class StatsUpgradeOptions
         MoveSpeed,
         AttackDamage,
         FireRate,
-        InvulnerabilityTime 
+        InvulnerabilityTime,
+        Lifesteal
     }
 
     public StatType stat;

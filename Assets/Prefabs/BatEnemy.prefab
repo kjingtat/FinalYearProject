@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2715730232781305024}
   - component: {fileID: 8430983892242453454}
   - component: {fileID: 6917809604058945050}
+  - component: {fileID: 9040264280312094827}
   m_Layer: 0
   m_Name: BatEnemy
   m_TagString: Enemy
@@ -168,8 +169,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea051d7ab0b6fcb44a661c58d1b168dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 4
-  changeDirectionTime: 2
+  moveSpeed: 5
+  changeDirectionTime: 1
   contactDamage: 10
 --- !u!114 &6917809604058945050
 MonoBehaviour:
@@ -193,6 +194,20 @@ MonoBehaviour:
   - {fileID: 7647112445514891278, guid: 2c0be5f9e9ac56b439fff1e86bcf91e0, type: 3}
   - {fileID: 8154994315970576938, guid: 15cb08c1579ce6d4d884bc23a612765d, type: 3}
   - {fileID: 2858333615611917283, guid: 3ec5899d20f90684ca9c22d073defdcd, type: 3}
+--- !u!114 &9040264280312094827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3592647146522415340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086fdbf689f804d4b82f7d1090e92c84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRandom: 1
+  healthBarCanvas: {fileID: 5446991034767955831}
 --- !u!1001 &9121340966013633264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -293,5 +308,10 @@ PrefabInstance:
 --- !u!224 &2038638066989235483 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7124467893303869419, guid: a60d8bc5b62f36a4e91c5b1755cdb3ab, type: 3}
+  m_PrefabInstance: {fileID: 9121340966013633264}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5446991034767955831 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3819644246758184327, guid: a60d8bc5b62f36a4e91c5b1755cdb3ab, type: 3}
   m_PrefabInstance: {fileID: 9121340966013633264}
   m_PrefabAsset: {fileID: 0}

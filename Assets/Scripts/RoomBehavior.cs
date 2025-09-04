@@ -68,11 +68,9 @@ public class RoomBehavior : MonoBehaviour
 
     public void OnPlayerEnterRoom()
     {
-        if (isStartingRoom || isCleared) return;
+        MapManager.Instance.VisitRoom(gridPosition, cleared: isCleared);
 
-        MapManager.Instance.VisitRoom(gridPosition, cleared: false);
-
-        if (!hasSpawnedEnemies)
+        if (!isStartingRoom && !isCleared && !hasSpawnedEnemies)
         {
             SpawnEnemies();
             hasSpawnedEnemies = true;
@@ -101,10 +99,8 @@ public class RoomBehavior : MonoBehaviour
         int clearedRooms = GameManager.Instance != null ? GameManager.Instance.RoomsCleared : 0;
 
         List<GameObject> availableEnemies = new List<GameObject>(tier1Enemies);
-
         if (clearedRooms >= roomsToUnlockTier2)
             availableEnemies.AddRange(tier2Enemies);
-
         if (clearedRooms >= roomsToUnlockTier3)
             availableEnemies.AddRange(tier3Enemies);
 
@@ -113,9 +109,11 @@ public class RoomBehavior : MonoBehaviour
         if (clearedRooms >= roomsToUnlockTier3) spawnRange = tier3SpawnRange;
 
         int spawnCount = Random.Range(spawnRange.x, spawnRange.y + 1);
-        spawnCount = Mathf.Min(spawnCount, enemySpawnPoints.Length); 
+        spawnCount = Mathf.Min(spawnCount, enemySpawnPoints.Length);
 
         List<int> availableIndices = Enumerable.Range(0, enemySpawnPoints.Length).ToList();
+
+        Transform playerTransform = GameObject.FindGameObjectWithTag("Player")?.transform;
 
         for (int i = 0; i < spawnCount; i++)
         {
@@ -133,10 +131,15 @@ public class RoomBehavior : MonoBehaviour
                 Quaternion.identity
             );
 
+            EnemyFacing enemyFacing = newEnemy.GetComponent<EnemyFacing>();
+            if (enemyFacing != null && playerTransform != null)
+            {
+                enemyFacing.SetTarget(playerTransform);
+            }
+
             spawnedEnemies.Add(newEnemy);
         }
     }
-
 
     private GameObject GetEnemyPrefabByTier(int tier)
     {

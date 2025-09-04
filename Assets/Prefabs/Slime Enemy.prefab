@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1954774519683582069}
   - component: {fileID: 4488069144001654169}
   - component: {fileID: 7851118229015251013}
+  - component: {fileID: -6326313541589797677}
   m_Layer: 0
   m_Name: Slime Enemy
   m_TagString: Enemy
@@ -170,7 +171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   detectionRange: 5
-  moveSpeed: 1
+  moveSpeed: 2
   contactDamage: 10
 --- !u!114 &4488069144001654169
 MonoBehaviour:
@@ -210,6 +211,20 @@ MonoBehaviour:
   duration: 5
   applyOnCollision: 1
   applyOnTrigger: 0
+--- !u!114 &-6326313541589797677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2113859625206812861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086fdbf689f804d4b82f7d1090e92c84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRandom: 0
+  healthBarCanvas: {fileID: 8599432476724730678}
 --- !u!1001 &4779806234477874865
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -310,5 +325,10 @@ PrefabInstance:
 --- !u!224 &2344820418710155610 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7124467893303869419, guid: a60d8bc5b62f36a4e91c5b1755cdb3ab, type: 3}
+  m_PrefabInstance: {fileID: 4779806234477874865}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8599432476724730678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3819644246758184327, guid: a60d8bc5b62f36a4e91c5b1755cdb3ab, type: 3}
   m_PrefabInstance: {fileID: 4779806234477874865}
   m_PrefabAsset: {fileID: 0}

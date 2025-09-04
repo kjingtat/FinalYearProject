@@ -4,18 +4,21 @@ using UnityEngine;
 public class RandomEnemyAI : MonoBehaviour
 {
     public float moveSpeed = 2f;
-    public float changeDirectionTime = 2f; 
+    public float changeDirectionTime = 2f;
     public int contactDamage = 10;
 
     private Rigidbody2D rb;
     private Vector2 moveDirection;
     private float timer = 0f;
     private Transform player;
+    private EnemyFacing enemyFacing; 
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
+
+        enemyFacing = GetComponent<EnemyFacing>(); 
         PickNewDirection();
     }
 
@@ -38,6 +41,9 @@ public class RandomEnemyAI : MonoBehaviour
     private void PickNewDirection()
     {
         moveDirection = Random.insideUnitCircle.normalized;
+
+        if (enemyFacing != null)
+            enemyFacing.SetMoveDirection(moveDirection);
     }
 
     private void OnCollisionStay2D(Collision2D collision)

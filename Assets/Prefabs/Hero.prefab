@@ -156,7 +156,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 3
   m_LinearDamping: 0
   m_AngularDamping: 0
   m_GravityScale: 0
@@ -232,9 +232,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c44d001d28f3697419cd3455d52cd106, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 50
   currentHealth: 0
-  invulnerabilityDuration: 0.5
+  invulnerabilityDuration: 0.1
   dropChance: 1
   possibleDrops: []
 --- !u!114 &4418904224748084950
@@ -267,9 +267,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   baseMoveSpeed: 4
   moveSpeed: 4
-  maxHealth: 100
+  maxHealth: 50
   attackDamage: 1
   fireRate: 2
+  flatLifesteal: 0
 --- !u!114 &-4984045528025784989
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,4 +307,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52fdbad6035f9b2439ad208b7591c1c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tickInterval: 0.5
+  tickInterval: 0.25

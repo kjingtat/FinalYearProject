@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7602504332234432659}
   - component: {fileID: 8956557081986564573}
   - component: {fileID: 4007900424949130603}
+  - component: {fileID: -3632442469281867096}
   m_Layer: 0
   m_Name: Skeleton Enemy
   m_TagString: Enemy
@@ -193,6 +194,20 @@ MonoBehaviour:
   detectionRange: 5
   moveSpeed: 1
   contactDamage: 10
+--- !u!114 &-3632442469281867096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058035414866057508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086fdbf689f804d4b82f7d1090e92c84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRandom: 0
+  healthBarCanvas: {fileID: 7962468018240023921}
 --- !u!1001 &6593907903050561782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -293,5 +308,10 @@ PrefabInstance:
 --- !u!224 &4133589225762539293 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7124467893303869419, guid: a60d8bc5b62f36a4e91c5b1755cdb3ab, type: 3}
+  m_PrefabInstance: {fileID: 6593907903050561782}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &7962468018240023921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3819644246758184327, guid: a60d8bc5b62f36a4e91c5b1755cdb3ab, type: 3}
   m_PrefabInstance: {fileID: 6593907903050561782}
   m_PrefabAsset: {fileID: 0}

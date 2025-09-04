@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     public GameObject winScreen;
 
     public bool HasWon { get; private set; } = false;
-
     public int RoomsCleared { get; private set; } = 0;
 
     private void Awake()
@@ -58,8 +57,20 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    private void ResetRunState()
+    {
+        RoomsCleared = 0;
+        HasWon = false;
+        allRooms = null;
+
+        if (winScreen != null)
+            winScreen.SetActive(false);
+    }
+
     public void RestartRun()
     {
+        ResetRunState();
+
         Time.timeScale = 1f;
         Scene currentScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(currentScene.name);

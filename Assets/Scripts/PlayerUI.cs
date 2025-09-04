@@ -22,7 +22,7 @@ public class PlayerUI : MonoBehaviour
 
         if (playerHealth != null)
         {
-            hpText.text = ": " + playerHealth.CurrentHP;
+            hpText.text = ": " + playerHealth.CurrentHP + " / " + playerHealth.MaxHP;
             lastInvulnValue = playerHealth.invulnerabilityDuration;
             invulnText.text = ": " + lastInvulnValue.ToString("0.00") + "s";
         }
@@ -41,11 +41,11 @@ public class PlayerUI : MonoBehaviour
     {
         if (playerHealth != null)
         {
-            hpText.text = ": " + playerHealth.CurrentHP;
+            hpText.text = ": " + playerHealth.CurrentHP + " / " + playerHealth.MaxHP;
         }
         else
         {
-            hpText.text = ": ?";
+            hpText.text = ": ? / ?";
         }
 
         if (playerStats != null && playerStats.attackDamage != lastDamageValue)

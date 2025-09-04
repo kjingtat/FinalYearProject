@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 5339865435922440676}
   - component: {fileID: 4676006485024034633}
   - component: {fileID: 7767811995614467749}
+  - component: {fileID: -2644078151687479724}
   m_Layer: 0
   m_Name: WitchEnemy
   m_TagString: Enemy
@@ -172,7 +173,6 @@ MonoBehaviour:
   projectilePrefab: {fileID: 8896431651836227871, guid: 25a53426ee2b7b44c83d1a6bb57309df, type: 3}
   firePoint: {fileID: 8388323009219914518}
   moveSpeed: 3
-  minDistanceFromPlayer: 5
   randomMoveInterval: 1.5
   randomMoveRadius: 2
   attackCooldown: 2
@@ -199,6 +199,20 @@ MonoBehaviour:
   - {fileID: 7647112445514891278, guid: 2c0be5f9e9ac56b439fff1e86bcf91e0, type: 3}
   - {fileID: 8154994315970576938, guid: 15cb08c1579ce6d4d884bc23a612765d, type: 3}
   - {fileID: 2858333615611917283, guid: 3ec5899d20f90684ca9c22d073defdcd, type: 3}
+--- !u!114 &-2644078151687479724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2165991432404465113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086fdbf689f804d4b82f7d1090e92c84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRandom: 0
+  healthBarCanvas: {fileID: 5747629632817851604}
 --- !u!1 &3554547234755435055
 GameObject:
   m_ObjectHideFlags: 0
@@ -330,5 +344,10 @@ PrefabInstance:
 --- !u!224 &1737973064168261304 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7124467893303869419, guid: a60d8bc5b62f36a4e91c5b1755cdb3ab, type: 3}
+  m_PrefabInstance: {fileID: 8845549632445430099}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5747629632817851604 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3819644246758184327, guid: a60d8bc5b62f36a4e91c5b1755cdb3ab, type: 3}
   m_PrefabInstance: {fileID: 8845549632445430099}
   m_PrefabAsset: {fileID: 0}

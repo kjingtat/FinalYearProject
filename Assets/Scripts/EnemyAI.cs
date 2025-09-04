@@ -5,7 +5,10 @@ public class EnemyAI : MonoBehaviour
 {
     public float detectionRange = 5f;
     public float moveSpeed = 2f;
-    public int contactDamage = 10;
+    public int contactDamage = 10; 
+    public float autoAggroTime = 2f;
+    private float aggroTimer = 0f;
+
 
     private Transform player;
     private Rigidbody2D rb;
@@ -19,9 +22,19 @@ public class EnemyAI : MonoBehaviour
 
     void Update()
     {
-        if (!hasDetectedPlayer && Vector2.Distance(transform.position, player.position) < detectionRange)
+        if (!hasDetectedPlayer)
         {
-            hasDetectedPlayer = true;
+            aggroTimer += Time.deltaTime;
+
+            if (aggroTimer >= autoAggroTime)
+            {
+                hasDetectedPlayer = true;
+            }
+
+            if (Vector2.Distance(transform.position, player.position) < detectionRange)
+            {
+                hasDetectedPlayer = true;
+            }
         }
     }
 

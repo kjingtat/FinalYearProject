@@ -4806,6 +4806,7 @@ MonoBehaviour:
   - {fileID: 1058035414866057508, guid: 7e968b98a5e256646b5dddeb679cb255, type: 3}
   - {fileID: 2165991432404465113, guid: 573a054f85160854ea36469e53990780, type: 3}
   - {fileID: 2113859625206812861, guid: 751d9e12d3ae15747878311369a5edef, type: 3}
+  - {fileID: 6966803782074425415, guid: 7078d11edcb59934dbc1fcaeff4d016c, type: 3}
   enemySpawnPoints:
   - {fileID: 245150281619401471}
   - {fileID: 8709472888955611445}
@@ -4851,6 +4852,7 @@ MonoBehaviour:
   tier1SpawnRange: {x: 3, y: 5}
   tier2SpawnRange: {x: 5, y: 7}
   tier3SpawnRange: {x: 8, y: 10}
+  gridPosition: {x: 0, y: 0}
 --- !u!1 &3329304735037432037
 GameObject:
   m_ObjectHideFlags: 0

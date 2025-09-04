@@ -5,6 +5,9 @@ public class ArrowProjectile : MonoBehaviour
     private int damage;
     public float lifetime = 3f;
 
+    private PlayerStats playerStats;
+
+
     void Start()
     {
         Destroy(gameObject, lifetime);
@@ -24,6 +27,13 @@ public class ArrowProjectile : MonoBehaviour
             {
                 enemy.TakeDamage(damage);
 
+                if (playerStats != null && playerStats.flatLifesteal > 0f)
+                {
+                    Health playerHealth = playerStats.GetComponent<Health>();
+                    if (playerHealth != null)
+                        playerHealth.Heal((int)playerStats.flatLifesteal); 
+                }
+
                 EnemyAI enemyAI = other.GetComponent<EnemyAI>();
                 if (enemyAI != null)
                 {
@@ -36,6 +46,11 @@ public class ArrowProjectile : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void SetPlayerStats(PlayerStats stats)
+    {
+        playerStats = stats;
     }
 
 }

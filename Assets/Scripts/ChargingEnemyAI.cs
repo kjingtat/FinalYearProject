@@ -8,10 +8,13 @@ public class ChargingEnemyAI : MonoBehaviour
     public float chargeSpeed = 8f;
     public float chargeCooldown = 2f;
     public int contactDamage = 15;
+    public float autoAggroTime = 2f;
+    private float aggroTimer = 0f;
 
     private Rigidbody2D rb;
     private Collider2D col;
     private Transform player;
+    private bool hasDetectedPlayer = false;
     private bool isCharging = false;
     private Vector2 chargeDirection;
     private float cooldownTimer = 0f;
@@ -26,9 +29,7 @@ public class ChargingEnemyAI : MonoBehaviour
         foreach (Collider2D other in allEnemies)
         {
             if (other != col && other.CompareTag("Enemy"))
-            {
                 Physics2D.IgnoreCollision(col, other, true);
-            }
         }
     }
 
@@ -36,10 +37,24 @@ public class ChargingEnemyAI : MonoBehaviour
     {
         cooldownTimer -= Time.deltaTime;
 
-        if (!isCharging)
+        if (!hasDetectedPlayer)
+        {
+            aggroTimer += Time.deltaTime;
+
+            if (aggroTimer >= autoAggroTime)
+            {
+                hasDetectedPlayer = true;
+            }
+
+            if (Vector2.Distance(transform.position, player.position) <= detectionRange)
+            {
+                hasDetectedPlayer = true;
+            }
+        }
+
+        if (hasDetectedPlayer && !isCharging)
         {
             float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-
             if (distanceToPlayer <= detectionRange && cooldownTimer <= 0f)
             {
                 StartCharge();
@@ -49,6 +64,8 @@ public class ChargingEnemyAI : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (!hasDetectedPlayer) return;
+
         if (isCharging)
         {
             Vector2 newPosition = rb.position + chargeDirection * chargeSpeed * Time.fixedDeltaTime;
@@ -80,11 +97,16 @@ public class ChargingEnemyAI : MonoBehaviour
             Health playerHealth = collision.collider.GetComponent<Health>();
             if (playerHealth != null)
                 playerHealth.TakeDamage(contactDamage);
+
+            hasDetectedPlayer = true; 
         }
 
         if (!collision.collider.CompareTag("Enemy"))
-        {
             StopCharge();
-        }
+    }
+
+    public void OnHitByPlayer()
+    {
+        hasDetectedPlayer = true;
     }
 }
