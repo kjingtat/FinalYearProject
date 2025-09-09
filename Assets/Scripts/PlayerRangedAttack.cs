@@ -13,12 +13,21 @@ public class PlayerRangedAttack : MonoBehaviour
 
     private PlayerStats playerStats;
 
+    public AudioClip shootSound;
+    private AudioSource audioSource;
+
     void Start()
     {
         playerStats = GetComponent<PlayerStats>();
 
         crosshair = Instantiate(crosshairPrefab);
         crosshair.name = "Crosshair";
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
     }
 
     void Update()
@@ -33,6 +42,11 @@ public class PlayerRangedAttack : MonoBehaviour
         {
             ShootArrow();
             cooldownTimer = 1f / playerStats.fireRate;
+
+            if (shootSound != null && audioSource != null)
+            {
+                audioSource.PlayOneShot(shootSound);
+            }
         }
     }
 
